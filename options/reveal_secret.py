@@ -3,7 +3,7 @@ import utils
 
 
 def run(keys):
-    secret = generate_secret(keys)
+    secret = reveal_secret(keys)
     return secret
 
 
@@ -14,7 +14,7 @@ def request_data():
     return amount_people, keys
 
 
-def generate_secret(keys):
+def reveal_secret(keys):
     points = utils.keys_to_points(keys)
-    polynomial = utils.interpolation_lagrage(points)
+    polynomial = utils.interpolation_lagrange(points)
     return utils.get_secret(polynomial)
