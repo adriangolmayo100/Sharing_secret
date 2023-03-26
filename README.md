@@ -1,5 +1,5 @@
 # Sharing secret
-Implementation of the [Shamir's secret sharing]{https://en.wikipedia.org/wiki/Shamir%27s_secret_sharing}
+Implementation of the [Shamir's secret sharing](https://en.wikipedia.org/wiki/Shamir%27s_secret_sharing)
 
 
 ## Installation
