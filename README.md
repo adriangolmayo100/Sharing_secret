@@ -6,7 +6,7 @@ The application interacts with the user thought the console.
 
 ## Installation
 
-You can install the package via Git,
+You can install the package via Git.
 
 ```bash
 git clone https://github.com/adriangolmayo100/sharing_secret
